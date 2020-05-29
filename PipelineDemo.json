@@ -1,0 +1,255 @@
+[
+  {
+    "operators": {
+      "4": {
+        "properties": {
+          "title": "Mass-Based Search",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 40,
+        "top": 160
+      },
+      "5": {
+        "properties": {
+          "title": "IF-THEN Rule",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 280,
+        "top": 20
+      },
+      "6": {
+        "properties": {
+          "title": "Differential Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 560,
+        "top": 20
+      },
+      "7": {
+        "properties": {
+          "title": "Isotopic Pattern Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 280,
+        "top": 320
+      },
+      "8": {
+        "properties": {
+          "title": "Network-Based Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 560,
+        "top": 320
+      },
+      "9": {
+        "properties": {
+          "title": "IF-THEN Rule",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 800,
+        "top": 320
+      }
+    },
+    "links": {
+      "3": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 5,
+        "toConnector": "input_0"
+      },
+      "4": {
+        "fromOperator": 5,
+        "fromConnector": "output_0",
+        "toOperator": 6,
+        "toConnector": "input_0"
+      },
+      "5": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 7,
+        "toConnector": "input_0"
+      },
+      "6": {
+        "fromOperator": 7,
+        "fromConnector": "output_0",
+        "toOperator": 8,
+        "toConnector": "input_0"
+      },
+      "7": {
+        "fromOperator": 8,
+        "fromConnector": "output_0",
+        "toOperator": 9,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": [
+      "0",
+      "1",
+      "2"
+    ],
+    "2": {},
+    "3": {},
+    "4": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "5": [
+      "0",
+      "1",
+      "2"
+    ],
+    "6": {},
+    "7": {},
+    "8": {},
+    "9": [
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "0": [
+      "Mass-Based Search",
+      -1,
+      0,
+      []
+    ],
+    "1": [
+      "IF-THEN Rule",
+      -1,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "2": [
+      "Isotopic Pattern Analysis",
+      -1,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "3": [
+      "Network-Based Analysis",
+      -1,
+      0,
+      []
+    ],
+    "4": [
+      "Mass-Based Search",
+      -1,
+      4,
+      []
+    ],
+    "5": [
+      "IF-THEN Rule",
+      -1,
+      4,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "6": [
+      "Differential Analysis",
+      -1,
+      4,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "7": [
+      "Isotopic Pattern Analysis",
+      -1,
+      4,
+      []
+    ],
+    "8": [
+      "Network-Based Analysis",
+      -1,
+      4,
+      []
+    ],
+    "9": [
+      "IF-THEN Rule",
+      -1,
+      4,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ]
+  }
+]
