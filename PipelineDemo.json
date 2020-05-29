@@ -1,7 +1,7 @@
 [
   {
     "operators": {
-      "4": {
+      "0": {
         "properties": {
           "title": "Mass-Based Search",
           "inputs": {},
@@ -11,10 +11,10 @@
             }
           }
         },
-        "left": 40,
-        "top": 160
+        "left": 0,
+        "top": 220
       },
-      "5": {
+      "1": {
         "properties": {
           "title": "IF-THEN Rule",
           "inputs": {
@@ -28,10 +28,10 @@
             }
           }
         },
-        "left": 280,
+        "left": 260,
         "top": 20
       },
-      "6": {
+      "2": {
         "properties": {
           "title": "Differential Analysis",
           "inputs": {
@@ -45,10 +45,10 @@
             }
           }
         },
-        "left": 560,
+        "left": 580,
         "top": 20
       },
-      "7": {
+      "3": {
         "properties": {
           "title": "Isotopic Pattern Analysis",
           "inputs": {
@@ -62,10 +62,10 @@
             }
           }
         },
-        "left": 280,
-        "top": 320
+        "left": 260,
+        "top": 400
       },
-      "8": {
+      "4": {
         "properties": {
           "title": "Network-Based Analysis",
           "inputs": {
@@ -79,10 +79,10 @@
             }
           }
         },
-        "left": 560,
-        "top": 320
+        "left": 540,
+        "top": 400
       },
-      "9": {
+      "5": {
         "properties": {
           "title": "IF-THEN Rule",
           "inputs": {
@@ -97,38 +97,38 @@
           }
         },
         "left": 800,
-        "top": 320
+        "top": 400
       }
     },
     "links": {
-      "3": {
-        "fromOperator": 4,
+      "0": {
+        "fromOperator": 0,
         "fromConnector": "output_0",
-        "toOperator": 5,
+        "toOperator": 1,
+        "toConnector": "input_0"
+      },
+      "1": {
+        "fromOperator": 1,
+        "fromConnector": "output_0",
+        "toOperator": 2,
+        "toConnector": "input_0"
+      },
+      "2": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 3,
+        "toConnector": "input_0"
+      },
+      "3": {
+        "fromOperator": 3,
+        "fromConnector": "output_0",
+        "toOperator": 4,
         "toConnector": "input_0"
       },
       "4": {
-        "fromOperator": 5,
-        "fromConnector": "output_0",
-        "toOperator": 6,
-        "toConnector": "input_0"
-      },
-      "5": {
         "fromOperator": 4,
         "fromConnector": "output_0",
-        "toOperator": 7,
-        "toConnector": "input_0"
-      },
-      "6": {
-        "fromOperator": 7,
-        "fromConnector": "output_0",
-        "toOperator": 8,
-        "toConnector": "input_0"
-      },
-      "7": {
-        "fromOperator": 8,
-        "fromConnector": "output_0",
-        "toOperator": 9,
+        "toOperator": 5,
         "toConnector": "input_0"
       }
     },
@@ -149,22 +149,8 @@
     ],
     "2": {},
     "3": {},
-    "4": {
-      "tolerance": 10,
-      "mode": 1,
-      "adductsList": [
-        "M+H"
-      ]
-    },
+    "4": {},
     "5": [
-      "0",
-      "1",
-      "2"
-    ],
-    "6": {},
-    "7": {},
-    "8": {},
-    "9": [
       "0",
       "1",
       "2"
@@ -188,7 +174,7 @@
       ]
     ],
     "2": [
-      "Isotopic Pattern Analysis",
+      "Differential Analysis",
       -1,
       0,
       [
@@ -198,53 +184,21 @@
       ]
     ],
     "3": [
-      "Network-Based Analysis",
+      "Isotopic Pattern Analysis",
       -1,
       0,
       []
     ],
     "4": [
-      "Mass-Based Search",
+      "Network-Based Analysis",
       -1,
-      4,
+      0,
       []
     ],
     "5": [
       "IF-THEN Rule",
       -1,
-      4,
-      [
-        "0",
-        "1",
-        "2"
-      ]
-    ],
-    "6": [
-      "Differential Analysis",
-      -1,
-      4,
-      [
-        "0",
-        "1",
-        "2"
-      ]
-    ],
-    "7": [
-      "Isotopic Pattern Analysis",
-      -1,
-      4,
-      []
-    ],
-    "8": [
-      "Network-Based Analysis",
-      -1,
-      4,
-      []
-    ],
-    "9": [
-      "IF-THEN Rule",
-      -1,
-      4,
+      0,
       [
         "0",
         "1",
