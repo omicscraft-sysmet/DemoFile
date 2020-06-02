@@ -12,7 +12,7 @@
           }
         },
         "left": 0,
-        "top": 220
+        "top": 40
       },
       "1": {
         "properties": {
@@ -28,27 +28,10 @@
             }
           }
         },
-        "left": 260,
-        "top": 20
+        "left": 220,
+        "top": 40
       },
       "2": {
-        "properties": {
-          "title": "Differential Analysis",
-          "inputs": {
-            "input_0": {
-              "label": "Input"
-            }
-          },
-          "outputs": {
-            "output_0": {
-              "label": "Output "
-            }
-          }
-        },
-        "left": 580,
-        "top": 20
-      },
-      "3": {
         "properties": {
           "title": "Isotopic Pattern Analysis",
           "inputs": {
@@ -62,10 +45,10 @@
             }
           }
         },
-        "left": 260,
-        "top": 400
+        "left": 420,
+        "top": 40
       },
-      "4": {
+      "3": {
         "properties": {
           "title": "Network-Based Analysis",
           "inputs": {
@@ -79,10 +62,61 @@
             }
           }
         },
-        "left": 540,
-        "top": 400
+        "left": 620,
+        "top": 40
+      },
+      "4": {
+        "properties": {
+          "title": "Differential Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 820,
+        "top": 40
       },
       "5": {
+        "properties": {
+          "title": "Isotopic Pattern Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 220,
+        "top": 260
+      },
+      "6": {
+        "properties": {
+          "title": "Network-Based Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 460,
+        "top": 260
+      },
+      "7": {
         "properties": {
           "title": "IF-THEN Rule",
           "inputs": {
@@ -96,8 +130,8 @@
             }
           }
         },
-        "left": 800,
-        "top": 400
+        "left": 700,
+        "top": 260
       }
     },
     "links": {
@@ -114,7 +148,7 @@
         "toConnector": "input_0"
       },
       "2": {
-        "fromOperator": 0,
+        "fromOperator": 2,
         "fromConnector": "output_0",
         "toOperator": 3,
         "toConnector": "input_0"
@@ -126,9 +160,21 @@
         "toConnector": "input_0"
       },
       "4": {
-        "fromOperator": 4,
+        "fromOperator": 0,
         "fromConnector": "output_0",
         "toOperator": 5,
+        "toConnector": "input_0"
+      },
+      "5": {
+        "fromOperator": 5,
+        "fromConnector": "output_0",
+        "toOperator": 6,
+        "toConnector": "input_0"
+      },
+      "6": {
+        "fromOperator": 6,
+        "fromConnector": "output_0",
+        "toOperator": 7,
         "toConnector": "input_0"
       }
     },
@@ -150,7 +196,9 @@
     "2": {},
     "3": {},
     "4": {},
-    "5": [
+    "5": {},
+    "6": {},
+    "7": [
       "0",
       "1",
       "2"
@@ -174,7 +222,7 @@
       ]
     ],
     "2": [
-      "Differential Analysis",
+      "Isotopic Pattern Analysis",
       -1,
       0,
       [
@@ -184,18 +232,38 @@
       ]
     ],
     "3": [
+      "Network-Based Analysis",
+      -1,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "4": [
+      "Differential Analysis",
+      -1,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "5": [
       "Isotopic Pattern Analysis",
       -1,
       0,
       []
     ],
-    "4": [
+    "6": [
       "Network-Based Analysis",
       -1,
       0,
       []
     ],
-    "5": [
+    "7": [
       "IF-THEN Rule",
       -1,
       0,
