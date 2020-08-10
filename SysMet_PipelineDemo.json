@@ -1,0 +1,103 @@
+[
+  {
+    "operators": {
+      "0": {
+        "properties": {
+          "title": "Differential Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 140,
+        "top": 200
+      },
+      "1": {
+        "properties": {
+          "title": "Omics Integration",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 500,
+        "top": 200
+      },
+      "2": {
+        "properties": {
+          "title": "Omics Integration",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 860,
+        "top": 200
+      }
+    },
+    "links": {
+      "0": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 1,
+        "toConnector": "input_0"
+      },
+      "1": {
+        "fromOperator": 1,
+        "fromConnector": "output_0",
+        "toOperator": 2,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": {},
+    "2": {}
+  },
+  {
+    "0": [
+      "Differential Analysis",
+      -2,
+      0,
+      []
+    ],
+    "1": [
+      "Omics Integration",
+      -2,
+      0,
+      []
+    ],
+    "2": [
+      "Omics Integration",
+      -2,
+      0,
+      []
+    ]
+  }
+]
