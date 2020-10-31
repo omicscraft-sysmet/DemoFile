@@ -1,0 +1,249 @@
+[
+  {
+    "operators": {
+      "0": {
+        "properties": {
+          "title": "Mass-Based Search",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 20,
+        "top": 160
+      },
+      "1": {
+        "properties": {
+          "title": "IF-THEN Rule",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 200,
+        "top": 160
+      },
+      "2": {
+        "properties": {
+          "title": "Isotopic Pattern Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 360,
+        "top": 160
+      },
+      "3": {
+        "properties": {
+          "title": "Network-Based Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 520,
+        "top": 160
+      },
+      "4": {
+        "properties": {
+          "title": "Differential Analysis",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 680,
+        "top": 160
+      },
+      "5": {
+        "properties": {
+          "title": "Omics Integration",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 840,
+        "top": 160
+      },
+      "9": {
+        "properties": {
+          "title": "Omics Integration",
+          "inputs": {
+            "input_0": {
+              "label": "Input"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output "
+            }
+          }
+        },
+        "left": 1000,
+        "top": 160
+      }
+    },
+    "links": {
+      "0": {
+        "fromOperator": 0,
+        "fromConnector": "output_0",
+        "toOperator": 1,
+        "toConnector": "input_0"
+      },
+      "1": {
+        "fromOperator": 1,
+        "fromConnector": "output_0",
+        "toOperator": 2,
+        "toConnector": "input_0"
+      },
+      "2": {
+        "fromOperator": 2,
+        "fromConnector": "output_0",
+        "toOperator": 3,
+        "toConnector": "input_0"
+      },
+      "3": {
+        "fromOperator": 3,
+        "fromConnector": "output_0",
+        "toOperator": 4,
+        "toConnector": "input_0"
+      },
+      "4": {
+        "fromOperator": 4,
+        "fromConnector": "output_0",
+        "toOperator": 5,
+        "toConnector": "input_0"
+      },
+      "7": {
+        "fromOperator": "5",
+        "fromConnector": "output_0",
+        "toOperator": 9,
+        "toConnector": "input_0"
+      }
+    },
+    "operatorTypes": {}
+  },
+  {
+    "0": {
+      "tolerance": 10,
+      "mode": 1,
+      "adductsList": [
+        "M+H"
+      ]
+    },
+    "1": [
+      "0",
+      "1",
+      "2"
+    ],
+    "2": {},
+    "3": {
+      "NetGraph": false
+    },
+    "4": {},
+    "5": {},
+    "9": {}
+  },
+  {
+    "0": [
+      "Mass-Based Search",
+      -2,
+      0,
+      []
+    ],
+    "1": [
+      "IF-THEN Rule",
+      -1,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "2": [
+      "Isotopic Pattern Analysis",
+      -2,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "3": [
+      "Network-Based Analysis",
+      -1,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "4": [
+      "Differential Analysis",
+      -2,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "5": [
+      "Omics Integration",
+      -2,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ],
+    "9": [
+      "Omics Integration",
+      -2,
+      0,
+      [
+        "0",
+        "1",
+        "2"
+      ]
+    ]
+  }
+]
